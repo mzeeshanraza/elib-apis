@@ -10,6 +10,8 @@
  8. npm i -D @types/dotenv
  9. npm i mongoose 
  10. npm i -D @types/mongoose
+ 11. npm i http-errors
+ 12. npm i -D @types/http-errors
 
 tsc  => typescript ka complier hai 
 
