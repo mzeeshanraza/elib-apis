@@ -4,9 +4,14 @@
  3. npx tsc --init  
  4. Add Dev script in package.json file. "dev":"nodemon server.ts" 
  4. npm init @eslint/config (VS Code ESLint extension)
+ 5. npm install express
+ 6. npm i -D @types/express
+ 7. npm i dotenv
+ 8. npm i -D @types/dotenv
 
 tsc  => typescript ka complier hai 
 
+Chrome extension => JSON Formatter by callumlocke.com
 
 gitignore by CodeZombie (VS Extension)
 Ctrl + Shift + P (type add gitignore click then type node click file is created)
