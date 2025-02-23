@@ -1,0 +1,43 @@
+ Imporant Command this project 
+ 1. npm init 
+ 2. npm install -D typescript nodemon ts-node @types/node  (-D means Dev Dependencies )
+ 3. npx tsc --init  
+ 4. Add Dev script in package.json file. "dev":"nodemon server.ts" 
+ 4. npm init @eslint/config (VS Code ESLint extension)
+
+tsc  => typescript ka complier hai 
+
+
+gitignore by CodeZombie (VS Extension)
+Ctrl + Shift + P (type add gitignore click then type node click file is created)
+
+
+https://www.youtube.com/watch?v=6SJQ5eOChrA&list=PLXQpH_kZIxTWSVB13ldrMcSFBqyekosMz&index=2&ab_channel=Coder%27sGyan
+1) 12:00 - 14:00 commands explain 
+2) 
+
+
+
+
+Q1: Kya hota hai Dev Dependency?
+Ans: Ye wo packages hote hain jo sirf development time pe chahiye hote hain, lekin jab project live ya production me jata hai to unki zaroorat nahi hoti.
+
+Example se samjho:
+Agar tum ek Node.js project bana rahe ho aur TypeScript use kar rahe ho, to tumhe typescript aur ts-node sirf coding aur testing ke liye chahiye hoga, server chalane ke liye nahi. To is wajah se hum isko -D (dev dependencies) me install karte hain.
+
+Normal Dependency vs Dev Dependency
+🔹 Normal Dependency:
+npm install express ➝ Ye production me bhi chahiye hogi.
+
+🔹 Dev Dependency:
+npm install -D typescript ➝ Ye sirf development me chahiye hoti hai, production me nahi.
+
+Kaam ki baat:
+Agar tum package.json dekho to -D wale packages devDependencies section me dikhte hain, aur normal wale dependencies me hote hain.
+
+
+
+
+
+
+
